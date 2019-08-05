@@ -1,0 +1,73 @@
+axios  跨域   ----------需要构建工具 vue-cli
+
+vue-cli  -----vue全家桶工具之一
+
+涉及 node.js 和 npm
+
+
+
+安装webpack：
+
+下载好 cmd窗口   
+->    node -v  	显示版本号
+->    npm -v 	显示版本号
+
+->    npm install webpack -g    	安装webpack
+->    npm i webpack-cli  -g 	继续安装vue-cli
+
+查看是否安装成功：    webpack -v  显示版本，   webpack -h  显示相关命令
+
+至此，webpack4才算安装完成（注意：如果webpack安装在全局，那么CLI也需要装在全局）
+
+安装 vue-cli (2.X)：   
+	->   npm install --global vue-cli  
+检查 
+->   vue-V    	显示版本号
+
+
+------------------------------以上是全局安装，都是准备工作-----------------------------------------------------
+
+以下开始搭建项目
+vue init webpack  +name     例：  vue init webpack  spring-cli
+。
+。
+。一路回车
+成功后 先进入项目 
+->	npm run dev 	启动     
+->	会显示访问路径          
+ Ctrl+C    停止项目
+
+打包：
+->   npm run build   打包好的文件都要dist里    
+		index.html 首页 
+
+
+----------------------------------------------------------------------
+vue-cli (3.X) 安装   （ 已安装了vue-cli需要卸载：npm uninstall vue-cli -g）
+	->   npm install -g @vue/cli               链接：https://www.cnblogs.com/xiangsj/p/9749451.html
+
+# 安装		npm install -g @vue/cli
+# 查看已安装版本	vue --version 或者 vue -V
+# 卸载		npm uninstall @vue/cli -g
+# 新建项目		vue create my-project
+# 项目启动		npm run serve
+# 打包		npm run build
+
+
+
+
+安装号vue-cli 就在根目录安装 axios 即可   ：  vue add  axios
+                                           vue-router   :   cnpm install vue-router
+
+
+
+
+
+
+
+
+
+
+参考：https://www.jianshu.com/p/32beaca25c0d
+
+
